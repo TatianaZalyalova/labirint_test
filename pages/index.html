@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html> 
+	<head> 
+		<meta charset=UTF8>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.1, maximum-scale=1, user-scalable=yes">
+		<title>Оформление заказа</title> 
+	</head>
+	<body>
+		<header class="header">
+		
+	
+		</header>
+		
+		
+		<form>
+			<div class="container">
+				<h1>Оформление заказа</h1>
+				<div class="checkout">
+					<div class="checkout__left">
+						<div class="delivery">
+							<h2 class="delivery__header title">Доставка</h2>
+							<div class="methods__list">
+								<div class="methods__item">
+									<div class="methods__wrap">
+										<div class="methods__adds">
+											<b class="bold">Почта России, курьер — 24-26 сент.</b>
+											<p class="description">ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</p>
+										</div>
+										<div class="methods__price">+367 ₽</div>
+									</div>
+								</div>
+								<div class="methods__item">
+									<div class="methods__wrap">
+										<div class="methods__adds">
+											<b class="bold">Лабиринт, курьер — 25 сент.</b>
+											<p class="description">Можайское шоссе, д. 21, кв. 50, Москва, 121471</p>
+										</div>
+										<div class="methods__price">0 ₽</div>
+									</div>
+								</div>
+								<div class="methods__item">
+									<div class="methods__wrap">
+										<div class="methods__adds">
+											<b class="bold">Почта России, курьер — 24-26 сент.</b>
+											<p class="description">ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</p>
+										</div>
+										<div class="methods__price">+367 ₽</div>
+									</div>
+								</div>
+								<div class="methods__item">
+									<div class="methods__wrap">
+										<div class="methods__adds">
+											<b class="bold">Лабиринт, курьер — 25 сент.</b>
+											<p class="description">Можайское шоссе, д. 21, кв. 50, Москва, 121471</p>
+										</div>
+										<div class="methods__price">+367 ₽</div>
+									</div>
+								</div>
+							</div>
+							<button class="change-btn">Выбрать новое место и способ</button>
+							<div class="times">
+								<div class="times__list">
+									<div class="times__item">
+										<p><b class="bold">пн, 24 сен — ср, 26 сен</b><br>
+										10:00–19:00</p>
+									</div>
+									<div class="times__item">
+										<p><b class="bold">чт, 27 сен — пт, 28 сен</b><br>
+										10:00–19:00</p>
+									</div>
+								</div>
+								<button class="times__change change-btn">Другие дата и время</button>
+							</div>
+							<div class="checkboxes">
+								<div class="checkboxes__wrap">
+									<input id="notify" class="checkboxes__input" name="notify" type="checkbox">
+									<label for="notify" class="checkboxes__label">Viber/СМС уведомления о статусе заказа</label>
+								</div>
+								<div class="checkboxes__wrap">
+									<input id="contactless" class="checkboxes__input" name="contactless" type="checkbox">
+									<label for="contactless" class="checkboxes__label">Оставить у двери (бесконтактная доставка)</label>
+								</div>
+							</div>
+						</div>
+						<div class="addressee">
+							<h2 class="addressee__header title">Получатель</h2>
+							<div class="addressee__info">
+								<div class="addressee__wrap">
+									<div class="select-wrap addressee__name">
+										<select class=" select">
+											<option>Вольфганг Вениаминович Константинопольский</option>
+											<option>Вольфганг Вениаминович Константинопольский</option>
+											<option>Вольфганг Вениаминович Константинопольский</option>
+										</select>
+									</div>
+									<button class="change-btn">Новый получатель</button>
+								</div>
+								<div class="addressee__wrap phone">
+									<div class="addressee__phone select-wrap">
+										<select class="select">
+											<option>+7 910 234-56-78</option>
+											<option>+7 910 234-56-78</option>
+											<option>+7 910 234-56-78</option>
+										</select>
+									</div>
+									<button class="change-btn">Новый телефон</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="checkout__right">
+						<div class="order">
+							<h2 class="title">В заказе 4 товара <span class="medium">(2 кг)</span></h2>
+							<table class="table">
+								<tr class="table__row">
+									<td class="table__column">Цена товаров</td>
+									<td class="table__column">29 456 ₽</td>
+								</tr>
+								<tr class="table__row">
+									<td class="table__column">Все скидки</td>
+									<td class="table__column">–7 732 ₽</td>
+								</tr>
+								<tr class="table__row">
+									<td class="table__column">Скидка за предоплату</td>
+									<td class="table__column">–3%</td>
+								</tr>
+
+							</table>
+						</div>
+						<div class="close">
+							<div class="close__btn">Закрыть подробности</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="total">
+				<div class="container">
+					<button class="btn" type="submit" onclick="return false">Оформить и оплатить</button>
+					<table class="table">
+						<tr class="table__row">
+							<td class="table__column">Итого к оплате на сайте:</td>
+							<td class="table__column">21 072 ₽</td>
+						</tr>
+					</table>
+					<div class="total__mobile">
+						<p class="total__sum">К оплате: 21 072 ₽</p>
+						<div class="total__detailed">Подробнее</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
