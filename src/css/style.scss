@@ -491,7 +491,6 @@ h1 {
       padding-top: 40px;
       left: 0;
       overflow-y: scroll;
-      padding-bottom: 85px;
 
       .close {
         padding: 16px;
@@ -664,7 +663,6 @@ h1 {
         font-size: 17px;
         line-height: 21px;
         margin-left: 5px;
-        margin-bottom: 25px;
       }
     }
 
@@ -717,6 +715,10 @@ h1 {
           }
         }
       }
+    }
+
+    .change-btn {
+      margin-bottom: 24px;
     }
   }
 }
